@@ -1,0 +1,92 @@
+import React from 'react';
+
+const WhyChooseFounderooSection = () => {
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-16 font-sans">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+                <div className="grid lg:grid-cols-2 gap-16 items-center">
+                    {/* Left Side - Text Content */}
+                    <div className="space-y-8">
+                        {/* Header with background */}
+                        <div className="inline-block">
+                            <div className="bg-blue-100 text-blue-600 px-6 py-2 rounded-full text-sm font-medium">
+                                Why People Choose Founderoo
+                            </div>
+                        </div>
+
+                        {/* Main Heading */}
+                        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                            The Ultimate Digital Solution
+                            <br />
+                            <span className="text-purple-600">for Freelancers & Brands</span>
+                        </h2>
+
+                        {/* Description */}
+                        <p className="text-gray-600 text-lg leading-relaxed max-w-md">
+                            At Founderoo, we provide a comprehensive digital solution designed to empower freelancers and businesses alike. Our platform streamlines collaboration, enhances brand visibility, and ensures a seamless experience for professionals across industries.
+                        </p>
+
+                        {/* CTA Button */}
+                        <div>
+                            <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
+                                Join Now
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Right Side - Feature Ovals with Central F Logo and background square */}
+                    <div className="flex justify-center items-center py-16">
+                        <div className="relative w-[400px] h-[400px] bg-purple-100 rounded-[50px] shadow-lg">
+
+                            {/* Central F Logo - Slightly smaller */}
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+                                <div className="w-44 h-44 bg-purple-600 rounded-full flex items-center justify-center shadow-xl"> {/* Reduced w- and h- */}
+                                    <span className="text-white font-bold text-7xl">F</span> {/* Reduced text-size slightly */}
+                                </div>
+                            </div>
+
+                            {/* Feature Ovals positioned around the center */}
+                            {/* All-in-One Solution - Top */}
+                            <div className="absolute top-[-30px] left-1/2 transform -translate-x-1/2 z-10">
+                                <div className="w-56 h-32 bg-purple-50 rounded-full flex items-center justify-center shadow-lg border border-purple-200">
+                                    <span className="text-sm font-bold text-purple-900 text-center leading-tight px-2">
+                                        All-in-One<br />Solution
+                                    </span>
+                                </div>
+                            </div>
+
+                            {/* Effortless Branding - Left */}
+                            <div className="absolute top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                                <div className="w-32 h-56 bg-purple-50 rounded-full flex items-center justify-center shadow-lg border border-purple-200">
+                                    <span className="text-sm font-bold text-purple-900 text-center leading-tight px-2">
+                                        Effortless<br />Branding
+                                    </span>
+                                </div>
+                            </div>
+
+                            {/* Seamless Experience - Right */}
+                            <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+                                <div className="w-32 h-56 bg-purple-50 rounded-full flex items-center justify-center shadow-lg border border-purple-200">
+                                    <span className="text-sm font-bold text-purple-900 text-center leading-tight px-2">
+                                        Seamless<br />Experience
+                                    </span>
+                                </div>
+                            </div>
+
+                            {/* Trusted by Professionals - Bottom */}
+                            <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 z-10">
+                                <div className="w-56 h-32 bg-purple-50 rounded-full flex items-center justify-center shadow-lg border border-purple-200">
+                                    <span className="text-sm font-bold text-purple-900 text-center leading-tight px-2">
+                                        Trusted by<br />Professionals
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default WhyChooseFounderooSection;

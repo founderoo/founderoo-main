@@ -5,7 +5,6 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
     return (
         <div>
-            <Home />
             <Routes>
                 <Route path="/" element={<Home />} />
 
@@ -16,6 +15,5 @@ function App() {
 }
 
 export default App;
-            
 
-        
+
