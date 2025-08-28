@@ -2,10 +2,10 @@ import React from 'react';
 
 const PartnersSection = () => {
     const partners = [
-        'STARTUP INDIA',
-        'SKILL DEVELOPMENT',
-        'KERALA STARTUP',
-        'INNOVATE'
+        'Startup Bihar',
+        'Bihar Government',
+        'Kirdhatutor',
+        'iNfludex'
     ];
 
     return (

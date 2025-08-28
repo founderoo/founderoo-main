@@ -85,7 +85,7 @@ const FeaturesAndFaq = () => {
                         <p className="mt-4 max-w-lg text-lg leading-relaxed">
                             We Are World Unique Marketplace For Freelancer. Helping in profile creation and Trend setter Regular training, providing a large number of client and skilled candidate on a single platform.
                         </p>
-                        <button className="mt-8 bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
+                        <button className="mt-8 bg-purple-600 hover:bg-amber-400 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
                             Get Started
                         </button>
                     </div>

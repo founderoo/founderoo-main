@@ -1,5 +1,5 @@
 import React from 'react';
-
+import founderoo from '../assets/founderoo.webp'
 const WhyChooseFounderooSection = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-16 font-sans">
@@ -28,7 +28,7 @@ const WhyChooseFounderooSection = () => {
 
                         {/* CTA Button */}
                         <div>
-                            <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
+                            <button className="bg-purple-600 hover:bg-amber-400 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
                                 Join Now
                             </button>
                         </div>
@@ -40,9 +40,7 @@ const WhyChooseFounderooSection = () => {
 
                             {/* Central F Logo - Slightly smaller */}
                             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
-                                <div className="w-44 h-44 bg-purple-600 rounded-full flex items-center justify-center shadow-xl"> {/* Reduced w- and h- */}
-                                    <span className="text-white font-bold text-7xl">F</span> {/* Reduced text-size slightly */}
-                                </div>
+                                <img src={founderoo} alt="Founderoo Logo" className="w-44 h-44 rounded-full object-contain" />
                             </div>
 
                             {/* Feature Ovals positioned around the center */}

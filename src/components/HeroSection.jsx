@@ -20,8 +20,8 @@ const HeroSection = () => {
                             Welcome To The<br />
                             <span className="text-gray-800">World Of Founders</span>
                         </h1>
-                        <p className="text-xl text-gray-700 mb-4 font-medium">The Founders Community</p>
-                        <p className="text-lg text-purple-700 mb-8 font-semibold">Innovative Space for Problem Solver</p>
+                        <p className="text-2xl text-gray-700 mb-4 font-medium">The Founders Community</p>
+                        <p className="text-xl text-purple-700 mb-8 font-semibold">Innovative Space for Problem Solver</p>
                         <button className="bg-purple-600 hover:bg-yellow-400 hover:text-purple-800 text-white px-8 py-3 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg">
                             Register Now
                         </button>
@@ -43,7 +43,7 @@ const HeroSection = () => {
                             />
                         </div>
 
-                        {/* Person image - Made much larger and touching section boundaries */}
+
                         <div className="relative z-10 w-full flex justify-center items-end h-full">
                             <img
                                 src={header}

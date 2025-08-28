@@ -1,4 +1,5 @@
 import React from 'react';
+import background from '../assets/background.jpg';
 
 const ServicesSection = () => {
     const services = [
@@ -35,8 +36,16 @@ const ServicesSection = () => {
     ];
 
     return (
-        <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary"></div>
+        <section
+            className="py-20 bg-primary text-primary-foreground relative overflow-hidden bg-cover bg-center bg-no-repeat"
+            style={{
+                backgroundImage: `url(${background})`,
+            }}
+        >
+            {/* Keep your existing gradient overlay for additional styling */}
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/20"></div>
+
+            {/* Keep your decorative circle */}
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-primary-foreground/10 rounded-full transform translate-x-32 translate-y-32"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -44,8 +53,8 @@ const ServicesSection = () => {
                     <div className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-full font-bold text-lg mb-6">
                         OUR SERVICES
                     </div>
-                    <h2 className="text-3xl font-bold mb-4">Founderoo is a "One-stop Digital solution"</h2>
-                    <p className="text-primary-foreground/80 text-lg">for freelancers and Coaching programs</p>
+                    <h2 className="text-3xl text-primary font-bold mb-4">Founderoo is a "One-stop Digital solution"</h2>
+                    <p className="text-primary text-lg">for freelancers and Coaching programs</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

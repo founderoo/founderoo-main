@@ -6,7 +6,6 @@ import MissionVisionSection from '../components/MissionVisionSection';
 import WhyChooseFounderooSection from '../components/WhyChooseFounderooSection';
 import FeaturesAndFaq from '@/components/FeaturesAndFaq';
 import BoardOfManagementSection from '@/components/BoardOfManagementSection'
-import FeatureCards from '../components/FeatureCards';
 import PartnersSection from '../components/PartnersSection';
 import ServicesSection from '../components/ServicesSection';
 import Footer from '../components/Footer';
@@ -17,8 +16,6 @@ export const Home = () => {
       <HeroSection />
       <WhatWeDo />
       <MissionVisionSection />
-
-      <FeatureCards />
       <PartnersSection />
       <ServicesSection />
       <WhyChooseFounderooSection />
