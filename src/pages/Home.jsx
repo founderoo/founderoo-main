@@ -4,6 +4,8 @@ import HeroSection from '../components/HeroSection';
 import WhatWeDo from '../components/WhatWeDo';
 import MissionVisionSection from '../components/MissionVisionSection';
 import WhyChooseFounderooSection from '../components/WhyChooseFounderooSection';
+import FeaturesAndFaq from '@/components/FeaturesAndFaq';
+import BoardOfManagementSection from '@/components/BoardOfManagementSection'
 import FeatureCards from '../components/FeatureCards';
 import PartnersSection from '../components/PartnersSection';
 import ServicesSection from '../components/ServicesSection';
@@ -20,6 +22,8 @@ export const Home = () => {
       <PartnersSection />
       <ServicesSection />
       <WhyChooseFounderooSection />
+      <BoardOfManagementSection />
+      <FeaturesAndFaq />
       <Footer />
     </div>
   )
