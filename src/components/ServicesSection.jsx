@@ -4,33 +4,33 @@ import background from '../assets/background.jpg';
 const ServicesSection = () => {
     const services = [
         {
-            title: "IDEA BASED STARTUP",
-            description: "Transform your innovative ideas into successful startups with our comprehensive guidance and support.",
+            title: "IDEA BASED FUNDING",
+            description: "Idea-Based Funding Fuels Innovation By Investing In Visionary Ideas At Any Stage, Turning Creativity Into Reality.",
             image: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=300"
         },
         {
-            title: "FAST DEVELOPMENT",
-            description: "Accelerate your product development with agile methodologies and expert technical guidance.",
+            title: "TECH COFOUNDER",
+            description: "Your Strategic Partner In Building, Scaling, And Innovating Technology-Driven Businesses.",
             image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300"
         },
         {
-            title: "STARTUP CONSULTATION",
-            description: "Get personalized consultation from industry experts to navigate your startup journey successfully.",
+            title: "DESIGNING",
+            description: "Exceptional Experiences That Blend Creativity, Innovation, And Functionality To Bring Ideas To Life.",
             image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=300"
         },
         {
-            title: "BUSINESS MENTORING",
-            description: "Connect with experienced mentors who provide strategic guidance for sustainable business growth.",
+            title: "UD CAMERA",
+            description: "Captures Your Moments With Creativity, Precision, And Storytelling Excellence.",
             image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=300"
         },
         {
-            title: "DIGITAL MARKETING",
-            description: "Boost your online presence with comprehensive digital marketing strategies and campaigns.",
+            title: "SOCIAL MEDIA MANAGEMENT",
+            description: "Boosts Your Brand With Strategic Content, Engagement, And Growth Across All Platforms.",
             image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=300"
         },
         {
-            title: "SKILL DEVELOPMENT",
-            description: "Enhance your entrepreneurial skills with targeted training programs and workshops.",
+            title: "MARKET OUTREACH",
+            description: "Market Outreach Helps Businesses Expand Their Reach, Connect With Target Audiences, And Drive Growth Through Strategic Engagement.",
             image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=300"
         }
     ];

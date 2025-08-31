@@ -89,9 +89,9 @@ const FeaturesAndFaq = () => {
                             Get Started
                         </button>
                     </div>
-                    {/* Abstract shapes from the image */}
+                    {/* Abstract shapes from the image - Reverted to absolute with responsive sizing */}
                     <div className="hidden md:block">
-                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/3 w-[600px] h-[600px]"> {/* Added width and height for the container */}
+                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 w-[400px] h-[400px] lg:w-[500px] lg:h-[500px]">
                             <img
                                 src={spiral} // Placeholder for your spiral image
                                 alt="Abstract Spiral Shape"

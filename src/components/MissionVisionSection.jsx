@@ -1,13 +1,14 @@
 import React from 'react';
+import Founderoo from '../assets/founderoo.webp'; // Ensure you have an 'F' logo image in the specified path
 
 const MissionVisionSection = () => {
     return (
-        <div className="relative font-sans bg-blue-50 min-h-screen overflow-hidden">
+        <div className="relative font-sans bg-blue-50 py-16 overflow-hidden"> {/* Changed min-h-screen to py-16 */}
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Bottom Section: Mission, Vision, and F Logo with connecting lines */}
-                <div className="relative min-h-[600px] flex items-center justify-center mt-24">
+                <div className="relative min-h-[600px] flex items-center justify-center"> {/* Removed mt-24 as py-16 will handle spacing */}
                     {/* Dashed vertical line */}
                     {/*<div className="absolute top-0 bottom-0 w-px bg-purple-400 border-l border-dashed border-purple-400 transform -translate-x-1/2 left-1/2"></div>*/}
 
@@ -29,7 +30,7 @@ const MissionVisionSection = () => {
                     {/* Central 'F' Logo */}
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30">
                         <div className="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center shadow-2xl">
-                            <span className="text-white font-bold text-4xl">F</span>
+                            <img src={Founderoo} className="rounded-full " alt="Founderoo" />
                         </div>
                     </div>
 

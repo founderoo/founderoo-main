@@ -34,8 +34,8 @@ const BoardOfManagementSection = () => {
                 </h2>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-12">
                     <TeamMemberCard
-                        name="Ramanand Thakur"
-                        title="Founder & CEO"
+                        name="Mukesh Jha"
+                        title="CTO"
                         imageUrl={cto}
                     />
                     <TeamMemberCard
@@ -44,8 +44,8 @@ const BoardOfManagementSection = () => {
                         imageUrl={Ceo}
                     />
                     <TeamMemberCard
-                        name="Ramanand Thakur"
-                        title="Founder & CEO"
+                        name="Kajal"
+                        title="HR"
                         imageUrl={hr}
                     />
                 </div>

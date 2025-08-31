@@ -1,5 +1,5 @@
 import React from 'react';
-import  man from   '../assets/man.jpg'
+import man from '../assets/man.jpg'
 import contact from '../assets/contact.jpg'
 import contact2 from '../assets/contact2.jpg'
 import WhyWeDoThis from "@/components/WhyWeDoThis.jsx";
@@ -98,10 +98,10 @@ export default function CompanyLandingPage() {
                     </div>
                 </div>
             </div>
-            <WhatWeDo2/>
+            <WhatWeDo2 />
 
-            <WhoWeAre/>
-            <WhyWeDoThis/>
+            <WhoWeAre />
+            <WhyWeDoThis />
 
             {/* History Section */}
             <div className="px-8 py-16 bg-white">
@@ -189,34 +189,27 @@ export default function CompanyLandingPage() {
                             Our <span className="text-purple-500">Founder</span>
                         </h2>
 
-                        <div className="flex gap-8">
-                            {/* Founder Image Placeholder */}
-                            <div className="w-32 h-40 bg-gray-300 rounded-lg relative">
-                                <div className="absolute bottom-2 left-2">
-                                    <div className="w-30 h-38 bg-blue-600 rounded flex items-center justify-center">
-                                       <img src={ceo}/>
-                                    </div>
+                        <div className="flex items-center gap-8 mt-4">
+                            {/* Founder Image */}
+                            <div className="relative">
+                                <img src={ceo} alt="Founder" className="w-48 h-60 rounded-lg object-cover" /> {/* Increased size to w-48 h-60 */}
+                                <div className="absolute bottom-2 left-2 bg-blue-600 rounded p-1">
+                                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
                                 </div>
                             </div>
 
                             {/* Quote Section */}
                             <div className="flex-1 relative">
-                                <div className="text-4xl text-purple-300 font-serif absolute -top-2 -left-2">"</div>
-                                <p className="text-purple-500 font-semibold mb-4 ml-6">Say</p>
-
-                                {/* Quote placeholder */}
-                                <div className="bg-gray-200 rounded-lg p-6 ml-6 relative">
-                                    <div className="absolute inset-0 flex items-center justify-center">
-                                        <div className="w-16 h-16 border-2 border-gray-400 relative">
-                                            <div className="absolute inset-0 flex items-center justify-center">
-                                                <div className="w-full h-px bg-gray-400 absolute top-1/2 left-0 transform -translate-y-1/2 rotate-45"></div>
-                                                <div className="w-full h-px bg-gray-400 absolute top-1/2 left-0 transform -translate-y-1/2 -rotate-45"></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <p className="text-purple-500 font-semibold mb-2 ml-4 text-xl">Say</p>
+                                <div className="bg-gray-200 rounded-lg p-6 relative flex items-center justify-center min-h-[100px] ml-4">
+                                    <p className="text-gray-700 text-lg italic">
+                                        &ldquo;Our vision is to empower businesses with innovative solutions.&rdquo;
+                                    </p>
                                 </div>
-
-                                <div className="text-6xl text-purple-300 font-serif absolute bottom-4 right-4">"</div>
+                                <div className="text-6xl text-purple-300 font-serif absolute top-0 -left-6 transform -translate-y-1/2">&ldquo;</div>
+                                <div className="text-6xl text-purple-300 font-serif absolute bottom-0 -right-6 transform translate-y-1/2">&rdquo;</div>
                             </div>
                         </div>
                     </div>

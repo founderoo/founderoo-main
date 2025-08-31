@@ -12,7 +12,6 @@ import Footer from '../components/Footer';
 export const Home = () => {
   return (
     <div>
-      <Header />
       <HeroSection />
       <WhatWeDo />
       <MissionVisionSection />
@@ -21,7 +20,6 @@ export const Home = () => {
       <WhyChooseFounderooSection />
       <BoardOfManagementSection />
       <FeaturesAndFaq />
-      <Footer />
     </div>
   )
 }
