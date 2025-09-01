@@ -4,6 +4,7 @@ import  BigEclipse  from '../assets/BigEllipse.png'
 import smallEclipse from '../assets/Ellipse 6.png'
 import Eclipse5 from '../assets/Ellipse 5.png'
 import Eclipse4 from '../assets/Ellipse 4.png'
+import {Link} from "react-router-dom";
 
 const HeroSection = () => {
     return (
@@ -22,9 +23,12 @@ const HeroSection = () => {
                         </h1>
                         <p className="text-2xl text-gray-700 mb-4 font-medium">The Founders Community</p>
                         <p className="text-xl text-purple-700 mb-8 font-semibold">Innovative Space for Problem Solver</p>
+                        <Link to="/signup">
                         <button className="bg-purple-600 hover:bg-yellow-400 hover:text-purple-800 text-white px-8 py-3 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg">
+
                             Register Now
                         </button>
+                        </Link>
                         <div className="flex items-center justify-start space-x-6 mt-8">
                             <img src={Eclipse4} alt="Ellipse 4" className="w-24 h-24 opacity-60" />
                             <img src={Eclipse5} alt="Ellipse 5" className="w-32 h-32 opacity-70" />

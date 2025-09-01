@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import signupimage from '../assets/signupimage.jpg';
-
+import { Link } from 'react-router-dom';
 export default function SignUpPage() {
     const [isSignUp, setIsSignUp] = useState(true);
     const [formData, setFormData] = useState({
@@ -50,9 +50,11 @@ export default function SignUpPage() {
                     <div className="flex-1">
                         {/* Back Arrow */}
                         <div className="mb-4">
+                            <Link to="/">
                             <button className="p-2 hover:bg-muted rounded-full transition-colors">
                                 <ArrowLeft className="w-5 h-5 text-muted-foreground" />
                             </button>
+                            </Link>
                         </div>
 
                         {/* Header */}

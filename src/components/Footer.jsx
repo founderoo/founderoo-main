@@ -33,7 +33,7 @@ const Footer = () => {
                         <ul className="space-y-4 text-gray-300">
                             <li><a href="#" className="hover:text-purple-400 transition-colors">About Us</a></li>
                             <li><a href="#" className="hover:text-purple-400 transition-colors">Careers</a></li>
-                            <li><a href="#" className="hover:text-purple-400 transition-colors">FAQs</a></li>
+                            <li><a href="https://founderooblog.vercel.app/" className="hover:text-purple-400 transition-colors">Blog</a></li>
                             <li><a href="#" className="hover:text-purple-400 transition-colors">Teams</a></li>
                         </ul>
                     </div>
