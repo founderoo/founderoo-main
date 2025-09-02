@@ -75,28 +75,56 @@ const FeaturesAndFaq = () => {
                 </div>
             </div>
 
-            {/* Innovative Space for Problem Solver Section */}
             <div className="bg-purple-900 text-white py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-                <div className="max-w-7xl mx-auto relative z-10 grid md:grid-cols-2 gap-8 items-center">
-                    <div>
-                        <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-                            Innovative Space for Problem Solver
-                        </h2>
-                        <p className="mt-4 max-w-lg text-lg leading-relaxed">
-                            We Are World Unique Marketplace For Freelancer. Helping in profile creation and Trend setter Regular training, providing a large number of client and skilled candidate on a single platform.
-                        </p>
-                        <button className="mt-8 bg-purple-600 hover:bg-amber-400 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
-                            Get Started
-                        </button>
-                    </div>
-                    {/* Abstract shapes from the image - Reverted to absolute with responsive sizing */}
-                    <div className="hidden md:block">
-                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 w-[400px] h-[400px] lg:w-[500px] lg:h-[500px]">
+
+                {/* Mobile/Tablet Layout (visible on screens smaller than md) */}
+                <div className="md:hidden max-w-3xl mx-auto text-center space-y-6">
+                    <h2 className="text-3xl sm:text-4xl font-bold leading-tight">
+                        Innovative Space for Problem Solver
+                    </h2>
+                    <p className="text-base sm:text-lg leading-relaxed px-2">
+                        We Are World Unique Marketplace For Freelancer. Helping in profile creation and Trend setter Regular training, providing a large number of client and skilled candidate on a single platform.
+                    </p>
+
+                    {/* Mobile spiral image */}
+                    <div className="flex justify-center py-6">
+                        <div className="w-72 h-72 sm:w-80 sm:h-80">
                             <img
-                                src={spiral} // Placeholder for your spiral image
+                                src={spiral}
                                 alt="Abstract Spiral Shape"
-                                className="w-full h-full object-contain" // object-contain to ensure the image fits without cropping
+                                className="w-full h-full object-contain"
                             />
+                        </div>
+                    </div>
+
+                    <button className="bg-purple-600 hover:bg-amber-400 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
+                        Get Started
+                    </button>
+                </div>
+
+                {/* Desktop Layout (visible on md screens and up) - Original Design */}
+                <div className="hidden md:block">
+                    <div className="max-w-7xl mx-auto relative z-10 grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
+                                Innovative Space for Problem Solver
+                            </h2>
+                            <p className="mt-4 max-w-lg text-lg leading-relaxed">
+                                We Are World Unique Marketplace For Freelancer. Helping in profile creation and Trend setter Regular training, providing a large number of client and skilled candidate on a single platform.
+                            </p>
+                            <button className="mt-8 bg-purple-600 hover:bg-amber-400 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg">
+                                Get Started
+                            </button>
+                        </div>
+                        {/* Abstract shapes from the image - Original absolute positioning */}
+                        <div className="hidden md:block">
+                            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 w-[400px] h-[400px] lg:w-[500px] lg:h-[500px]">
+                                <img
+                                    src={spiral}
+                                    alt="Abstract Spiral Shape"
+                                    className="w-full h-full object-contain"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
