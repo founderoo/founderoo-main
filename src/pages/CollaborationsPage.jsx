@@ -199,7 +199,7 @@ export default function CollaborationsPage() {
                         </div>
 
                         <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8">
-                            <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <Target className="w-8 h-8 text-white" />
                             </div>
                             <h4 className="text-xl font-bold text-gray-800 mb-4">Strategic Value</h4>
@@ -209,7 +209,7 @@ export default function CollaborationsPage() {
                         </div>
 
                         <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8">
-                            <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <Globe className="w-8 h-8 text-white" />
                             </div>
                             <h4 className="text-xl font-bold text-gray-800 mb-4">Global Network</h4>

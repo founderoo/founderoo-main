@@ -26,8 +26,8 @@ const Header = () => {
                     <nav className="hidden md:flex items-center space-x-8">
                         <a href="/" className="hover:opacity-80 transition-opacity">Home</a>
                         <a href="/our-company" className="hover:opacity-80 transition-opacity">About Us</a>
-                        <a href="#" className="hover:opacity-80 transition-opacity">Contact</a>
-                        <a href="#" className="hover:opacity-80 transition-opacity">Blog</a>
+                        <a href="/collaborations" className="hover:opacity-80 transition-opacity">Collaborations</a>
+                        <a href="https://founderooblog.vercel.app/" className="hover:opacity-80 transition-opacity">Blog</a>
                     </nav>
 
                     {/* CTA Button & Mobile Menu */}
@@ -51,9 +51,9 @@ const Header = () => {
                     <div className="md:hidden absolute top-16 left-0 right-0 bg-primary border-t border-primary/20 z-50">
                         <nav className="px-4 py-4 space-y-4">
                             <a href="/" className="block hover:opacity-80 transition-opacity">Home</a>
-                            <a href="#" className="block hover:opacity-80 transition-opacity">About Us</a>
-                            <a href="/our-company" className="block hover:opacity-80 transition-opacity">Contact</a>
-                            <a href="#" className="block hover:opacity-80 transition-opacity">Blog</a>
+                            <a href="/our-company" className="block hover:opacity-80 transition-opacity">About Us</a>
+                            <a href="/collaborations" className="block hover:opacity-80 transition-opacity">Collaborations</a>
+                            <a href="https://founderooblog.vercel.app/" className="block hover:opacity-80 transition-opacity">Blog</a>
                             <button className="bg-secondary hover:bg-amber-400 text-secondary-foreground px-6 py-2 rounded-full font-medium transition-colors w-full sm:hidden">
                                 Join Now
                             </button>
