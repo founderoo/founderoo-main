@@ -5,7 +5,7 @@ import contact2 from '../assets/contact2.jpg'
 import WhyWeDoThis from "@/components/WhyWeDoThis.jsx";
 import WhoWeAre from "@/components/WhoWeAre.jsx";
 import WhatWeDo2 from "@/components/whatwedo2ndpage.jsx";
-import ceo from '../assets/ceo.png'
+import ceo from '../assets/Ceo.png'
 
 export default function CompanyLandingPage() {
     return (
