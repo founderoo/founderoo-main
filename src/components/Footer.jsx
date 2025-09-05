@@ -20,8 +20,8 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-6">Use Cases</h4>
                         <ul className="space-y-4 text-gray-300">
-                            <li><a href="#" className="hover:text-purple-400 transition-colors">Idea Based Funding</a></li>
-                            <li><a href="#" className="hover:text-purple-400 transition-colors">Tech Cofounder</a></li>
+                            <li><a href="https://www.founderoo.in/#feature" className="hover:text-purple-400 transition-colors">Idea Based Funding</a></li>
+                            <li><a href="https://www.founderoo.in/form" className="hover:text-purple-400 transition-colors">Tech Cofounder</a></li>
                             <li><a href="#" className="hover:text-purple-400 transition-colors">Designing</a></li>
                             <li><a href="#" className="hover:text-purple-400 transition-colors">Social Media Management</a></li>
                         </ul>

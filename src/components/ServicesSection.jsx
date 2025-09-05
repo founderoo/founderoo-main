@@ -1,37 +1,44 @@
 import React from 'react';
 import background from '../assets/background.jpg';
+import {Link} from "react-router-dom";
 
 const ServicesSection = () => {
     const services = [
         {
             title: "IDEA BASED FUNDING",
             description: "Idea-Based Funding Fuels Innovation By Investing In Visionary Ideas At Any Stage, Turning Creativity Into Reality.",
-            image: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=300"
+            image: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=300",
+            link: "https://www.founderoo.in/#feature"
         },
         {
             title: "TECH COFOUNDER",
             description: "Your Strategic Partner In Building, Scaling, And Innovating Technology-Driven Businesses.",
-            image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300"
+            image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300",
+            link: "https://www.founderoo.in/form"
         },
         {
             title: "DESIGNING",
             description: "Exceptional Experiences That Blend Creativity, Innovation, And Functionality To Bring Ideas To Life.",
-            image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=300"
+            image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=300",
+            link: ""
         },
         {
             title: "UD CAMERA",
             description: "Captures Your Moments With Creativity, Precision, And Storytelling Excellence.",
-            image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=300"
+            image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=300",
+            link: ""
         },
         {
             title: "SOCIAL MEDIA MANAGEMENT",
             description: "Boosts Your Brand With Strategic Content, Engagement, And Growth Across All Platforms.",
-            image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=300"
+            image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=300",
+            link: ""
         },
         {
             title: "MARKET OUTREACH",
             description: "Market Outreach Helps Businesses Expand Their Reach, Connect With Target Audiences, And Drive Growth Through Strategic Engagement.",
-            image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=300"
+            image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=300",
+            link: ""
         }
     ];
 
@@ -53,7 +60,7 @@ const ServicesSection = () => {
                     <div className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-full font-bold text-lg mb-6">
                         OUR SERVICES
                     </div>
-                    <h2 className="text-3xl text-primary font-bold mb-4">Founderoo is a "One-stop Digital solution"</h2>
+                    <h2 className="text-3xl text-primary font-bold mb-4">Founder Flow is a "One-stop Digital solution"</h2>
                     <p className="text-primary text-lg">for freelancers and Coaching programs</p>
                 </div>
 
@@ -68,9 +75,11 @@ const ServicesSection = () => {
                             <div className="p-6">
                                 <h3 className="text-lg font-bold text-card-foreground mb-3">{service.title}</h3>
                                 <p className="text-muted-foreground mb-6 leading-relaxed">{service.description}</p>
+                                <Link to={service.link}>
                                 <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-2 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg">
                                     Learn More
                                 </button>
+                            </Link>
                             </div>
                         </div>
                     ))}

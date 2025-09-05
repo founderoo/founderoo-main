@@ -7,7 +7,7 @@ const founder = {
     name: "Ramanand Thakur",
     role: "Founder & CEO",
     image: Ceo,
-    description: "Ramanand is the visionary behind the Founderoo. With a sharp eye for innovation and deep understanding of Startup's future he is dedicatedly contributing towards Bihar's changing startup ecosystem. Bold, strategic and always future focused, he is igniting a movement of Brand - first entrepreneurship.",
+    description: "Ramanand is the visionary behind the Founder Flow. With a sharp eye for innovation and deep understanding of Startup's future he is dedicatedly contributing towards Bihar's changing startup ecosystem. Bold, strategic and always future focused, he is igniting a movement of Brand - first entrepreneurship.",
     expertise: ["CompanyVision", "Leadership", "Fundraising", "Branding", "Market Research"],
     linkedin: "https://www.linkedin.com/in/ramanand-thakur"
 };

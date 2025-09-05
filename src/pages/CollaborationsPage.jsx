@@ -46,7 +46,7 @@ export default function CollaborationsPage() {
                             Collaboration Overview
                         </h2>
                         <p className="text-gray-600 leading-relaxed max-w-3xl mx-auto text-sm sm:text-base">
-                            At <strong>Founderoo</strong>, we believe in the power of collaboration to drive meaningful change.
+                            At <strong>Founder Flow</strong>, we believe in the power of collaboration to drive meaningful change.
                             Our partnerships span across social initiatives and corporate ventures, creating a diverse ecosystem
                             of innovation and impact. Through strategic alliances, we amplify our mission to empower entrepreneurs
                             while contributing to social good and business excellence.

@@ -56,11 +56,11 @@ export default function CompanyLandingPage() {
 
                             <div className="text-sm sm:text-base text-gray-600 leading-relaxed space-y-4">
                                 <p>
-                                    <strong>Founderoo</strong> is a platform built to empower early-stage
+                                    <strong>Founder Flow</strong> is a platform built to empower early-stage
                                     founders and entrepreneurs with the tools, insights, and
                                     connections they need to build impactful startups. From
                                     finding the right freelancers to accessing curated
-                                    resources and expert guidance, Founderoo is a one-stop
+                                    resources and expert guidance, Founder Flow is a one-stop
                                     hub for turning bold ideas into successful ventures. Our
                                     mission is to simplify the startup journey and foster
                                     innovation by connecting builders with the right support
@@ -107,7 +107,7 @@ export default function CompanyLandingPage() {
 
                                 <div className="ml-6 sm:ml-8 lg:ml-12 text-sm sm:text-base text-gray-700 leading-relaxed">
                                     <p>
-                                        Founderoo was established in 2022 as a strategic solution, brand of Branding, absorbing innovation and trending into committed to empowering visionaries and entrepreneurs. Recognizing a critical gap in early-stage startup support, we embarked on a mission Founderoo to focus exclusively on the unique challenges and opportunities faced by startup founders.
+                                        Founder Flow was established in 2022 as a strategic solution, brand of Branding, absorbing innovation and trending into committed to empowering visionaries and entrepreneurs. Recognizing a critical gap in early-stage startup support, we embarked on a mission Founderoo to focus exclusively on the unique challenges and opportunities faced by startup founders.
                                     </p>
                                     <br />
                                     <p>

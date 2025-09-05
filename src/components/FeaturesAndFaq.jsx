@@ -51,19 +51,19 @@ const FeaturesAndFaq = () => {
                         </div>
                         <div className="mt-8 space-y-4">
                             <FAQItem
-                                question="Who can use Founderoo?"
-                                answer="Founderoo is designed for freelancers, businesses, and anyone looking to connect and collaborate on digital projects. It's a versatile platform for all professional types."
+                                question="Who can use Founder Flow?"
+                                answer="Founder Flow is designed for freelancers, businesses, and anyone looking to connect and collaborate on digital projects. It's a versatile platform for all professional types."
                             />
                             <FAQItem
                                 question="How can businesses find the right freelancer?"
                                 answer="Our platform uses advanced filtering and a detailed profile system, allowing businesses to search for freelancers based on skills, experience, and ratings to find the perfect match for their project."
                             />
                             <FAQItem
-                                question="How does Founderoo ensure quality and security?"
+                                question="How does Founder Flow ensure quality and security?"
                                 answer="We have a robust verification process for all users. Our secure payment system and project management tools ensure that all transactions and collaborations are protected and transparent."
                             />
                             <FAQItem
-                                question="Can I manage multiple projects on Founderoo?"
+                                question="Can I manage multiple projects on Founder Flow?"
                                 answer="Yes, our dashboard is built to handle multiple projects simultaneously. You can easily switch between projects, track progress, and communicate with different teams from one central location."
                             />
                             <FAQItem

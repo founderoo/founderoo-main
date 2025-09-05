@@ -11,7 +11,7 @@ const WhyChooseFounderooSection = () => {
                     {/* Header Badge */}
                     <div className="flex justify-center">
                         <div className="bg-blue-100 text-blue-600 px-6 py-2 rounded-full text-sm font-medium">
-                            Why People Choose Founderoo
+                            Why People Choose Founder Flow
                         </div>
                     </div>
 
@@ -24,7 +24,7 @@ const WhyChooseFounderooSection = () => {
 
                     {/* Description */}
                     <p className="text-gray-600 text-base sm:text-lg leading-relaxed text-center px-4">
-                        At Founderoo, we provide a comprehensive digital solution designed to empower freelancers and businesses alike. Our platform streamlines collaboration, enhances brand visibility, and ensures a seamless experience for professionals across industries.
+                        At Founder Flow, we provide a comprehensive digital solution designed to empower freelancers and businesses alike. Our platform streamlines collaboration, enhances brand visibility, and ensures a seamless experience for professionals across industries.
                     </p>
 
                     {/* Central Logo */}
@@ -72,7 +72,7 @@ const WhyChooseFounderooSection = () => {
                             {/* Header with background */}
                             <div className="inline-block">
                                 <div className="bg-blue-100 text-blue-600 px-6 py-2 rounded-full text-sm font-medium">
-                                    Why People Choose Founderoo
+                                    Why People Choose Founder Flow
                                 </div>
                             </div>
 
@@ -85,7 +85,7 @@ const WhyChooseFounderooSection = () => {
 
                             {/* Description */}
                             <p className="text-gray-600 text-lg leading-relaxed max-w-md">
-                                At Founderoo, we provide a comprehensive digital solution designed to empower freelancers and businesses alike. Our platform streamlines collaboration, enhances brand visibility, and ensures a seamless experience for professionals across industries.
+                                At Founder Flow, we provide a comprehensive digital solution designed to empower freelancers and businesses alike. Our platform streamlines collaboration, enhances brand visibility, and ensures a seamless experience for professionals across industries.
                             </p>
 
                             {/* CTA Button */}

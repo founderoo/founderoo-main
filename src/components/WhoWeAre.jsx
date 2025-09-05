@@ -12,7 +12,7 @@ const WhoWeAre = () => {
                         Who We Are?
                     </h2>
                     <p className="text-base sm:text-lg leading-relaxed max-w-none lg:max-w-2xl">
-                        We're a passionate team of entrepreneurs, creatives, and problem-solvers who believe in the power of startups to shape the future. At Founderoo, we've built a platform that bridges the gap between ambitious founders and the resources they need to thrive—from expert freelancers to strategic insights and community support. We exist to champion innovation, simplify the startup journey, and help big ideas come to life.
+                        We're a passionate team of entrepreneurs, creatives, and problem-solvers who believe in the power of startups to shape the future. At Founder Flow, we've built a platform that bridges the gap between ambitious founders and the resources they need to thrive—from expert freelancers to strategic insights and community support. We exist to champion innovation, simplify the startup journey, and help big ideas come to life.
                     </p>
                 </div>
 
