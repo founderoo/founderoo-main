@@ -5,8 +5,15 @@ import smallEclipse from '../assets/Ellipse 6.png'
 import Eclipse5 from '../assets/Ellipse 5.png'
 import Eclipse4 from '../assets/Ellipse 4.png'
 import { Link } from "react-router-dom";
+import { useAuth } from '../Context/AuthContext'; // Import useAuth hook
 
 const HeroSection = () => {
+    const { currentUser } = useAuth(); // Get the currentUser object
+
+    // Determine the path and button text based on authentication status
+    const buttonPath = currentUser ? "/profile" : "/signup";
+    const buttonText = currentUser ? "Go to Profile" : "Register Now";
+
     return (
         <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 relative overflow-hidden">
 
@@ -23,9 +30,9 @@ const HeroSection = () => {
                         <p className="text-xl sm:text-2xl text-gray-700 font-medium">The Founders Community</p>
                         <p className="text-lg sm:text-xl text-purple-700 font-semibold">Innovative Space for Problem Solver</p>
                         <div className="pt-4">
-                            <Link to="/signup">
+                            <Link to={buttonPath}>
                                 <button className="bg-purple-600 hover:bg-yellow-400 hover:text-purple-800 text-white px-8 py-3 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg">
-                                    Register Now
+                                    {buttonText}
                                 </button>
                             </Link>
                         </div>
@@ -75,9 +82,9 @@ const HeroSection = () => {
                             </h1>
                             <p className="text-2xl text-gray-700 mb-4 font-medium">The Founders Community</p>
                             <p className="text-xl text-purple-700 mb-8 font-semibold">Innovative Space for Problem Solver</p>
-                            <Link to="/signup">
+                            <Link to={buttonPath}>
                                 <button className="bg-purple-600 hover:bg-yellow-400 hover:text-purple-800 text-white px-8 py-3 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg">
-                                    Register Now
+                                    {buttonText}
                                 </button>
                             </Link>
                             <div className="flex items-center justify-start space-x-6 mt-8">

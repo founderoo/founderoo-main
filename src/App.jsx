@@ -6,20 +6,24 @@ import Header from "@/components/Header.jsx";
 import Footer from "@/components/Footer.jsx";
 import SignUpPage from "@/pages/SignUpPage.jsx";
 import CollaborationsPage from './pages/CollaborationsPage';
+import { AuthProvider } from './Context/AuthContext';
+import ProfilePage from './components/ProfilePage';
 function App() {
     return (
         <div>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/our-company" element={<OurCompany />} />
-                <Route path="/signup" element={<SignUpPage />} />
-                <Route path="/collaborations" element={<CollaborationsPage />} />
+            <AuthProvider>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/our-company" element={<OurCompany />} />
+                    <Route path="/signup" element={<SignUpPage />} />
+                    <Route path="/collaborations" element={<CollaborationsPage />} />
+                    <Route path="/profile" element={<ProfilePage />} />
 
 
-            </Routes>
-            <Footer />
-
+                </Routes>
+                <Footer />
+            </ AuthProvider>
         </div>
     );
 }
